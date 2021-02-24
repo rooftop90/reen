@@ -13,7 +13,7 @@ I plan to migrate this Distribution to Rocky Linux as soon as the first stable r
 
 ### 1. Download
 
-Download the latest release via GitHub releases. You can find all releases her: https://github.com/rooftop90/reen-rootfs/releases  
+Download the latest release via GitHub releases. You can find all releases here: https://github.com/rooftop90/reen-rootfs/releases  
 
 ### 2. Import Distribution
 Import the release into your WSL with the following command:
