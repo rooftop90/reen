@@ -1,5 +1,7 @@
 # reen
 
+Custom WSL Distribution based on Oracle Linux 8
+
 ## About 
 Reen is a customized WSL Distribution (based on Oracle Linux 8) for working with MS Azure. This Distribution is produced by my desire to have a WSL Distribution at hand that meet my needs during my work with MS Azure.
 
