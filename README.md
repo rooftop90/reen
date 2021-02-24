@@ -15,24 +15,30 @@ I plan to migrate this Distribution to Rocky Linux as soon as the first stable r
 
 Download the latest release via GitHub releases. You can find all releases here: https://github.com/rooftop90/reen-rootfs/releases  
 
-### 2. Import Distribution
+### 2. Create vhd directory
+
+Create a directory for Reen. This directory will store the vhd.
+
+### 3. Import Distribution
 Import the release into your WSL with the following command:
 ```
-wsl --import Reen ./reen release.tar.gz
+wsl.exe --import Reen C:\your\directory\just\created .\reen_rootfs.tar.gz
 ```
 
-### 3. (Optional) Configure Reen Icon
+### 4. (Optional) Configure Reen Icon
 Update the Reen Terminal configuration stanza to include the graphic assets in [Windows Terminal](https://github.com/microsoft/terminal) settings.json (example):
 
 ```
+
 {
     "guid": "{keep the GUID already created}",
     "hidden": false,
     "name": "Reen",
     "source": "Windows.Terminal.Wsl",
     "commandline": "wsl.exe -d reen",
-	"icon": "C:\\your\\path\\reen-icon.ico",
+	"icon": "C:\\your\\path\\reen-icon.ico"
 }
+
 ```
 
 ## Reen root-fs builds
