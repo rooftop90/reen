@@ -22,13 +22,13 @@ wsl --import Reen ./reen release.tar.gz
 ```
 
 ### 3. (Optional) Configure Reen Icon
-Configure the Reen graphic assets in [Windows Terminal](https://github.com/microsoft/terminal)
+Update the Reen Terminal configuration stanza to include the graphic assets in [Windows Terminal](https://github.com/microsoft/terminal) settings.json (example):
 
 ```
 {
     "guid": "{keep the GUID already created}",
     "hidden": false,
-    "name": "Reen-",
+    "name": "Reen",
     "source": "Windows.Terminal.Wsl",
     "commandline": "wsl.exe -d reen",
 	"icon": "C:\\your\\path\\reen-icon.ico",
