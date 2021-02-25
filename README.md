@@ -1,4 +1,4 @@
-# reen
+# ![icon](resources/img/reen-icon.ico) Reen
 
 Custom WSL Distribution based on Oracle Linux 8
 
